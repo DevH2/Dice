@@ -57,42 +57,42 @@ class Die {
     rect(x,y,length,length,borderRadii);
     if(numDots == 1){
       fill(0);
-      ellipse(x+40,y+40,dotDiameter,dotDiameter);
+      ellipse(x+length/2,y+length/2,dotDiameter,dotDiameter);
       sum ++;
     } else if(numDots == 2){
       fill(125);
-      ellipse(x+20,y+20,dotDiameter,dotDiameter);
-      ellipse(x+60,y+60,dotDiameter,dotDiameter);
+      ellipse(x+length/4,y+length/4,dotDiameter,dotDiameter);
+      ellipse(x+length*3/4,y+length*3/4,dotDiameter,dotDiameter);
       sum +=2;
     } else if(numDots == 3){
       fill(250);
-      ellipse(x+20,y+20,dotDiameter,dotDiameter);
-      ellipse(x+40,y+40,dotDiameter,dotDiameter);
-      ellipse(x+60,y+60,dotDiameter,dotDiameter);
+      ellipse(x+length/4,y+length/4,dotDiameter,dotDiameter);
+      ellipse(x+length/2,y+length/2,dotDiameter,dotDiameter);
+      ellipse(x+length*3/4,y+length*3/4,dotDiameter,dotDiameter);
       sum +=3;
     } else if(numDots == 4){
       fill(133,87,35);
-      ellipse(x+20,y+20,dotDiameter,dotDiameter);
-      ellipse(x+60,y+20,dotDiameter,dotDiameter);
-      ellipse(x+20,y+60,dotDiameter,dotDiameter);
-      ellipse(x+60,y+60,dotDiameter,dotDiameter);
+      ellipse(x+length/4,y+length/4,dotDiameter,dotDiameter);
+      ellipse(x+length*3/4,y+length/4,dotDiameter,dotDiameter);
+      ellipse(x+length/4,y+length*3/4,dotDiameter,dotDiameter);
+      ellipse(x+length*3/4,y+length*3/4,dotDiameter,dotDiameter);
       sum+=4;
     } else if(numDots == 5){
       fill(45,66,89);
-      ellipse(x+20,y+20,dotDiameter,dotDiameter);
-      ellipse(x+60,y+20,dotDiameter,dotDiameter);
-      ellipse(x+40,y+40,dotDiameter,dotDiameter);
-      ellipse(x+20,y+60,dotDiameter,dotDiameter);
-      ellipse(x+60,y+60,dotDiameter,dotDiameter);
+      ellipse(x+length/4,y+length/4,dotDiameter,dotDiameter);
+      ellipse(x+length*3/4,y+length/4,dotDiameter,dotDiameter);
+      ellipse(x+length/2,y+length/2,dotDiameter,dotDiameter);
+      ellipse(x+length/4,y+length*3/4,dotDiameter,dotDiameter);
+      ellipse(x+length*3/4,y+length*3/4,dotDiameter,dotDiameter);
       sum+=5;
     } else {
       fill(89,66,45);
-      ellipse(x+20,y+20,dotDiameter,dotDiameter);
-      ellipse(x+60,y+20,dotDiameter,dotDiameter);
-      ellipse(x+20,y+60,dotDiameter,dotDiameter);
-      ellipse(x+60,y+60,dotDiameter,dotDiameter);
-      ellipse(x+20,y+40,dotDiameter,dotDiameter);
-      ellipse(x+60,y+40,dotDiameter,dotDiameter);
+      ellipse(x+length/4,y+length/4,dotDiameter,dotDiameter);
+      ellipse(x+length*3/4,y+length/4,dotDiameter,dotDiameter);
+      ellipse(x+length/4,y+length*3/4,dotDiameter,dotDiameter);
+      ellipse(x+length*3/4,y+length*3/4,dotDiameter,dotDiameter);
+      ellipse(x+length/4,y+length/2,dotDiameter,dotDiameter);
+      ellipse(x+length*3/4,y+length/2,dotDiameter,dotDiameter);
       sum+=6;
     }
     rainbow();
