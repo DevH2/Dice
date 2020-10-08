@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-Integer sum = new Integer(0);
+int sum = 0;
 int red;
 
 void setup(){
@@ -20,7 +19,7 @@ void draw(){
   fill(255);
   rect(150,900,600,45);
   fill(0);
-  text("Sum: " + sum.toString(),420,925);
+  text("Sum: " + sum,420,925);
   
   
 }
