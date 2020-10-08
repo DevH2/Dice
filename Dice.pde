@@ -31,7 +31,7 @@ void mousePressed(){
   
 }
 
-class Dice {
+class Die {
   int x, y, numDots, length, dotDiameter, borderRadii;
   Die(int x, int y, int length, int dotDiameter, int borderRadii){
     this.x = x;
