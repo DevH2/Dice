@@ -8,7 +8,7 @@ void setup(){
 }
 void draw(){
   sum = 0;
-  background(200);
+  background(0);
   for(int x = 10; x<800; x +=85 ){
     for(int y = 10; y<800; y+=85 ){
       Die die = new Die(x,y,80,10,15);
